@@ -6,13 +6,6 @@ const token = "6630033932:AAEhL-gfN0sIEES5_dOfDQ14SSwINKpG5DM";
 
 const bot = new TelegramBot(token, { polling: false });
 
-bot.on('message', msg => {
-    const {chat: {id}} = msg
-    bot.sendMessage(id, "pong")
-})
-
-
-
 program
   .name("string-util")
   .description("CLI to some JavaScript string utilities")
