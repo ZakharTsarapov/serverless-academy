@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createInterface } from "readline"
 import sortFunctions from "./sortFunctions.js";
 
