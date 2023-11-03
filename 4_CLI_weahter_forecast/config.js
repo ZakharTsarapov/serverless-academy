@@ -1,8 +1,6 @@
 export const WEATHER_BOT_TOKEN = 
-process.env.WEATHER ||
-  "6552155291:AAGQIrUWOPPyZlrXVk1U7Bc89xHn4SMNQCc";
+process.env.WEATHER
 export const API_KEY = 
-process.env.API ||
-  "d61fb0491d812151fc302edd4c1b3c12";
+process.env.API
 export const USER_ID = 
-process.env.USER || 560142779
+process.env.USER

@@ -5,7 +5,7 @@ import { program } from "commander";
 import axios from "axios";
 import { WEATHER_BOT_TOKEN, API_KEY, USER_ID } from "./config.js";
 
-const token = WEATHER_BOT_TOKEN;
+const token = WEATHER_BOT_TOKEN.trim();
 const bot = new TelegramBot(token, { polling: true });
 
 const weatherCity = (userCity) =>
